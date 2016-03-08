@@ -1,4 +1,4 @@
-class Artist < ActiveRecord::Base
+class Label < ActiveRecord::Base
   include SearchableByName
 
   def self.search(term)

@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :labels
+  resources :albums
   root 'site#search'
   get 'site/search'
   post 'site/search'
